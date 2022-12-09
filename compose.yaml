@@ -1,4 +1,16 @@
 services:
+  get-mp3:
+    entrypoint:
+      - /home/python/venv/bin/yt-dlp
+      - --extract-audio
+      - --audio-format
+      - mp3
+    image: ghcr.io/williamjacksn/yt-dlp
+    init: true
+    volumes:
+      - ./:/home/python/docker-yt-dlp
+    working_dir: /home/python/docker-yt-dlp
+
   shell:
     entrypoint:
       - /bin/sh
