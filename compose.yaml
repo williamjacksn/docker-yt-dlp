@@ -11,6 +11,25 @@ services:
       - ./:/home/python/docker-yt-dlp
     working_dir: /home/python/docker-yt-dlp
 
+  get-mp3-playlist:
+    entrypoint:
+      - /home/python/venv/bin/yt-dlp
+      - --extract-audio
+      - --audio-format
+      - mp3
+      - --cache-dir
+      - /home/python/docker-yt-dlp/.local/cache
+      - --ignore-errors
+      - --continue
+      - --no-overwrites
+      - --download-archive
+      - /home/python/docker-yt-dlp/.local/progress.txt
+    image: ghcr.io/williamjacksn/yt-dlp
+    init: true
+    volumes:
+      - ./:/home/python/docker-yt-dlp
+    working_dir: /home/python/docker-yt-dlp
+
   shell:
     entrypoint:
       - /bin/sh
