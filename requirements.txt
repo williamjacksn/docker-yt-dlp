@@ -16,5 +16,5 @@ pycryptodomex==3.16.0
     # via yt-dlp
 websockets==10.4
     # via yt-dlp
-yt-dlp==2022.11.11
+yt-dlp==2023.3.4
     # via -r requirements.in
