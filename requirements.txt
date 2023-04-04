@@ -12,9 +12,9 @@ certifi==2022.12.7
     # via yt-dlp
 mutagen==1.46.0
     # via yt-dlp
-pycryptodomex==3.16.0
+pycryptodomex==3.17
     # via yt-dlp
-websockets==10.4
+websockets==11.0
     # via yt-dlp
 yt-dlp==2023.3.4
     # via -r requirements.in
