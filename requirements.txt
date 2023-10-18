@@ -6,15 +6,15 @@
 #
 --extra-index-url https://alpine-wheels.github.io/index
 
-brotli==1.0.9
+brotli==1.1.0
     # via yt-dlp
-certifi==2022.12.7
+certifi==2023.7.22
     # via yt-dlp
-mutagen==1.46.0
+mutagen==1.47.0
     # via yt-dlp
-pycryptodomex==3.17
+pycryptodomex==3.19.0
     # via yt-dlp
-websockets==11.0
+websockets==11.0.3
     # via yt-dlp
 yt-dlp==2023.10.13
     # via -r requirements.in
