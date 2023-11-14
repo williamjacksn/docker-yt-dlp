@@ -9,12 +9,34 @@
 brotli==1.1.0
     # via yt-dlp
 certifi==2023.7.22
-    # via yt-dlp
+    # via
+    #   requests
+    #   yt-dlp
+cffi==1.16.0
+    # via cryptography
+charset-normalizer==3.3.2
+    # via requests
+cryptography==41.0.5
+    # via secretstorage
+idna==3.4
+    # via requests
+jeepney==0.8.0
+    # via secretstorage
 mutagen==1.47.0
     # via yt-dlp
+pycparser==2.21
+    # via cffi
 pycryptodomex==3.19.0
     # via yt-dlp
+requests==2.31.0
+    # via yt-dlp
+secretstorage==3.3.3
+    # via yt-dlp
+urllib3==2.1.0
+    # via
+    #   requests
+    #   yt-dlp
 websockets==12.0
     # via yt-dlp
-yt-dlp==2023.10.13
+yt-dlp==2023.11.14
     # via -r requirements.in
