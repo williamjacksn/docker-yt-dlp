@@ -8,13 +8,13 @@
 
 brotli==1.1.0
     # via yt-dlp
-certifi==2023.7.22
+certifi==2023.11.17
     # via
     #   requests
     #   yt-dlp
 charset-normalizer==3.3.2
     # via requests
-idna==3.4
+idna==3.6
     # via requests
 mutagen==1.47.0
     # via yt-dlp
