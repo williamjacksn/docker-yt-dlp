@@ -18,7 +18,7 @@ idna==3.6
     # via requests
 mutagen==1.47.0
     # via yt-dlp
-pycryptodomex==3.19.0
+pycryptodomex==3.19.1
     # via yt-dlp
 requests==2.31.0
     # via yt-dlp
