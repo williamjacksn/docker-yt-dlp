@@ -30,6 +30,17 @@ services:
       - ./:/home/python/docker-yt-dlp
     working_dir: /home/python/docker-yt-dlp
 
+  get-mp4:
+    entrypoint:
+      - /home/python/venv/bin/yt-dlp
+      - --format
+      - mp4
+    image: ghcr.io/williamjacksn/yt-dlp
+    init: true
+    volumes:
+      - ./:/home/python/docker-yt-dlp
+    working_dir: /home/python/docker-yt-dlp
+
   shell:
     entrypoint:
       - /bin/sh
