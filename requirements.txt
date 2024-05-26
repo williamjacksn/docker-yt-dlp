@@ -20,7 +20,7 @@ mutagen==1.47.0
     # via yt-dlp
 pycryptodomex==3.20.0
     # via yt-dlp
-requests==2.31.0
+requests==2.32.2
     # via yt-dlp
 urllib3==2.2.1
     # via
