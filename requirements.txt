@@ -14,7 +14,7 @@ certifi==2024.7.4
     #   yt-dlp
 charset-normalizer==3.3.2
     # via requests
-idna==3.7
+idna==3.8
     # via requests
 mutagen==1.47.0
     # via yt-dlp
