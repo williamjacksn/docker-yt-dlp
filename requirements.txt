@@ -26,5 +26,5 @@ urllib3==2.3.0
     #   yt-dlp
 websockets==14.1
     # via yt-dlp
-yt-dlp[default]==2024.12.23
+yt-dlp[default]==2025.1.15
     # via -r requirements.in
