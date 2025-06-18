@@ -20,7 +20,7 @@ pycryptodomex==3.23.0
     # via yt-dlp
 requests==2.32.4
     # via yt-dlp
-urllib3==2.4.0
+urllib3==2.5.0
     # via
     #   requests
     #   yt-dlp
